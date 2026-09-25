@@ -20,6 +20,7 @@ link to the note.
 - [x] Windows Fundamentals 2
 - [x] Windows Fundamentals 3
 - [x] Active Directory Basics
+- [x] [Windows Investigation (practice)](03-windows-and-ad/windows-investigation-practice.md)
 
 ## 04 · [Command line](04-command-line)
 - [ ] Windows Command Line
