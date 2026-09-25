@@ -32,7 +32,7 @@ The three pieces that go on job applications. Linked here when they exist.
 - `security-plus/` · `soc-level-1/` — notes for the next two blocks
 - `projects/` — finished work that stands on its own
 - `cheatsheets/` — commands and syntax I look up repeatedly
-- `_templates/` — the note template
+- `templates/` — the note template
 - `WORKFLOW.md` — how each session gets logged
 
 ## Ground rules
