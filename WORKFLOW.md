@@ -2,6 +2,14 @@
 
 The last five minutes of every one-hour session.
 
+## The quick way: paste my notes to Claude
+
+Open a Claude Code session on this repo and paste my rough notes with the room name. Claude writes
+the note in the template, updates the cheatsheets, ticks and links the room, then commits as me and
+pushes. [`CLAUDE.md`](CLAUDE.md) holds its instructions.
+
+The manual steps below still work when Claude isn't available.
+
 ## Once: get the repo onto my computer
 
 Install Git from [git-scm.com](https://git-scm.com) if it is not there yet, then:
