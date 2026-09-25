@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+*.pcap
+*.evtx
+*.zip
+scratch/
