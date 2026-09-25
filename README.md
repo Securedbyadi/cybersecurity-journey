@@ -2,7 +2,9 @@
 
 Public log of my route into cloud security, written as I go.
 
-**Now:** TryHackMe Cyber Security 101 · **Next:** CompTIA Security+ · **Then:** TryHackMe SOC Level 1 (SAL1)
+**Now:** TryHackMe Cyber Security 101 · 
+**Next:** CompTIA Security+ · 
+**Then:** TryHackMe SOC Level 1 (SAL1)
 **Target:** SOC Analyst L1 by mid-2027, cloud security engineering after that.
 
 I write these notes for the version of me who has to use them again in six months. If a note
