@@ -29,3 +29,7 @@ I used this to check a user's privileges and last logon. I opened the tools from
   in processes using event log IDs.
 - How to schedule tasks and check tasks that already exist in Task Scheduler.
 - How to navigate to the right tool for the situation in front of me.
+
+## What confused me
+Where to start, and which tool to open for each situation. I got help from Claude in Chrome with
+the right navigation paths and which method to follow for each task.
