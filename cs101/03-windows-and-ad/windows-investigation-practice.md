@@ -33,3 +33,7 @@ I used this to check a user's privileges and last logon. I opened the tools from
 ## What confused me
 Where to start, and which tool to open for each situation. I got help from Claude in Chrome with
 the right navigation paths and which method to follow for each task.
+
+## Where this shows up in a real SOC
+When an alert fires on a Windows host, an analyst checks event logs, scheduled tasks, and user
+accounts in this way to work out what the attacker did, when, and with which account.
