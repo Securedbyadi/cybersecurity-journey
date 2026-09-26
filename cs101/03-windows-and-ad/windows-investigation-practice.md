@@ -37,3 +37,4 @@ the right navigation paths and which method to follow for each task.
 ## Where this shows up in a real SOC
 When an alert fires on a Windows host, an analyst checks event logs, scheduled tasks, and user
 accounts in this way to work out what the attacker did, when, and with which account.
+The tasks in this room were mostly defensive security work, the same side of the job a SOC analyst is on.
