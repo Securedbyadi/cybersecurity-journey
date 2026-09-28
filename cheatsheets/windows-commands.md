@@ -7,6 +7,23 @@
 | `ipconfig` | show network settings | `ipconfig /all` |
 | `net user` | list local user accounts | `net user` |
 | `net user <name>` | one account's details: group memberships (privileges), last logon | `net user Administrator` |
+| `set` | show environment variables, including the path | `set` |
+| `ver` | OS version | `ver` |
+| `systeminfo` | OS and hardware info | `systeminfo` |
+| `more` | page through long output | `driverquery \| more` |
+| `help` | list cmd commands | `help` |
+| `cls` | clear the screen | `cls` |
+| `ping` | check if a host is reachable | `ping example.com` |
+| `tracert` | show the route to a host, hop by hop | `tracert example.com` |
+| `nslookup` | look up a domain's IP address | `nslookup example.com` |
+| `netstat` | current connections (-a all, -b program, -o PID, -n numeric) | `netstat -abon` |
+| `cd` | show current directory, or move to another (`cd ..` goes up one) | `cd C:\Users` |
+| `dir` | list directory contents (/a hidden, /s sub-directories) | `dir /a` |
+| `tree` | visual tree of sub-directories | `tree` |
+| `mkdir` | make a directory | `mkdir notes` |
+| `rmdir` | delete a directory | `rmdir notes` |
+| `tasklist` | list running processes | `tasklist` |
+| `taskkill` | end a process by PID or name | `taskkill /PID 1234` |
 
 ## Run box (Win + R)
 

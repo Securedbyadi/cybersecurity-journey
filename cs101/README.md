@@ -23,7 +23,7 @@ link to the note.
 - [x] [Windows Investigation (practice)](03-windows-and-ad/windows-investigation-practice.md)
 
 ## 04 · [Command line](04-command-line)
-- [ ] Windows Command Line
+- [x] [Windows Command Line](04-command-line/windows-command-line.md)
 - [ ] Windows PowerShell
 - [ ] Linux Shells
 
