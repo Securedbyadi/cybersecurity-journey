@@ -13,6 +13,8 @@ and processes.
 set                     :: check the path
 ver                     :: version of the OS
 systeminfo              :: OS info
+hostname                :: computer name
+whoami                  :: current user
 driverquery | more      :: more turns a long response into pages
 help
 cls
@@ -50,10 +52,40 @@ dir /s                  :: all sub-directories
 tree                    :: visual of sub-directories
 mkdir <name>            :: make directory
 rmdir <name>            :: delete directory
+type <file>             :: read a text file
+copy <src> <dest>       :: duplicate
+move <src> <dest>       :: relocate
+del <file>              :: delete (erase does the same)
 ```
 
 ### Processes
 ```cmd
 tasklist
-taskkill
+tasklist /FI "imagename eq notepad.exe"   :: filter by process name
+taskkill /PID <id>      :: end a process
 ```
+
+### Utilities
+```cmd
+chkdsk                  :: scan a disk for bad sectors
+sfc /scannow            :: scan and repair system files
+```
+
+### Power
+```cmd
+shutdown /s             :: shut down
+shutdown /r             :: restart
+shutdown /a             :: abort
+```
+
+## What I learned
+- `netstat -abon` shows each connection with its program and process ID, so a connection can be tied to a process.
+- `dir /a` shows hidden items and `dir /s` includes subfolders.
+- Piping long output into `more` makes it readable page by page.
+
+## What confused me
+- cmd switches use `/` while network tools use `-`; `<command> /?` shows the right form.
+- `set` lists every environment variable; `echo %PATH%` shows just the path.
+
+## Where this shows up in a real SOC
+Run `netstat -abon` to tie a suspicious connection to a program and PID, then `tasklist` to confirm the process.
