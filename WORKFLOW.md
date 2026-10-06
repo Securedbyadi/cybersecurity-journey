@@ -1,6 +1,6 @@
 # How I log a session
 
-The last five minutes of every one-hour session.
+When I finish a room. A room can take one session or several; one note per room.
 
 ## The quick way: paste my notes to Claude
 
@@ -24,7 +24,7 @@ cd cybersecurity-journey
 1. Copy `_templates/session-note.md` into the room's module folder and name it after the room,
    for example `cs101/04-command-line/windows-command-line.md`. Fill it in from memory.
 2. Add any new commands to `cheatsheets/linux-commands.md` or `cheatsheets/windows-commands.md`.
-3. In `cs101/README.md`, tick the room and turn its name into a link to the note.
+3. In `cs101/README.md`, tick the room, link it, and add its completion date after the link.
 4. Commit and push:
 
 ```bash
@@ -35,5 +35,5 @@ git push
 
 No terminal nearby: the same steps work in the browser with **Add file → Create new file**.
 
-The commit history is the proof I showed up every weekday, which says more to a hiring manager
+The commit history is the proof I showed up, which says more to a hiring manager
 than any single note.

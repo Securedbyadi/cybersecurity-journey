@@ -1,6 +1,6 @@
 # Windows Command Line
 
-**Date:** 2026-09-28 · **Block:** CS101 · **Time:** 60 min
+**Completed:** 2026-09-28 · **Block:** CS101 · **Sessions:** 1
 
 ## What this covers
 Basic cmd commands, grouped the way I noted them: system basics, network, files and directories,

@@ -1,6 +1,8 @@
 # <Room or topic>
 
-**Date:** YYYY-MM-DD · **Block:** <CS101 / Security+ / SOC L1> · **Time:** <45 min>
+**Completed:** YYYY-MM-DD · **Block:** <CS101 / Security+ / SOC L1> · **Sessions:** <1>
+
+Log a room when it is finished, even if it took several days. Completed = the day I finished.
 
 ## What this covers
 One or two lines. What is this thing, and why does a SOC analyst care?

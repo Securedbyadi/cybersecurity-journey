@@ -1,6 +1,6 @@
 # Windows Investigation (practice)
 
-**Date:** 2026-09-25 · **Block:** CS101 · **Time:** ~4 hours
+**Completed:** 2026-09-25 · **Block:** CS101 · **Sessions:** 1
 
 ## What this covers
 A practice room for Windows: investigating a machine after an attack that happened back in 2019.
