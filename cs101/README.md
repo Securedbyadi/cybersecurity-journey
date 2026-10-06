@@ -28,7 +28,7 @@ After each room: write the note, tick the room, link its name to the note, and a
 
 ## 05 · [Networking](05-networking)
 - [x] [Networking Concepts](05-networking/networking-concepts.md) · 2026-10-05
-- [ ] Networking Essentials
+- [x] [Networking Essentials](05-networking/networking-essentials.md) · 2026-10-06
 - [ ] Networking Core Protocols
 - [ ] Networking Secure Protocols
 - [ ] Wireshark: The Basics
