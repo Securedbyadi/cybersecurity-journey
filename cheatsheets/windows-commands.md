@@ -5,6 +5,8 @@
 | Command | Does | Example |
 |---|---|---|
 | `ipconfig` | show network settings | `ipconfig /all` |
+| `ipconfig /release` | give up the current DHCP lease | `ipconfig /release` |
+| `ipconfig /renew` | request a new DHCP lease | `ipconfig /renew` |
 | `net user` | list local user accounts | `net user` |
 | `net user <name>` | one account's details: group memberships (privileges), last logon | `net user Administrator` |
 | `set` | show environment variables, including the path | `set` |
@@ -17,6 +19,8 @@
 | `cls` | clear the screen | `cls` |
 | `ping` | check if a host is reachable | `ping example.com` |
 | `tracert` | show the route to a host, hop by hop | `tracert example.com` |
+| `arp -a` | show cached IP to MAC address mappings | `arp -a` |
+| `route print` | show the routing table | `route print` |
 | `nslookup` | look up a domain's IP address | `nslookup example.com` |
 | `netstat` | current connections (-a all, -b program, -o PID, -n numeric) | `netstat -abon` |
 | `cd` | show current directory, or move to another (`cd ..` goes up one) | `cd C:\Users` |
