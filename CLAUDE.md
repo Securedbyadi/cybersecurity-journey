@@ -9,17 +9,22 @@ Adil pastes rough notes from a study session. Turn them into a logged session, c
    for later blocks). If it matches nothing, ask him which room he means.
 2. **Write the note** at `<module folder>/<room-name>.md`, with the room name in lowercase kebab-case
    (`Windows Command Line` goes to `cs101/04-command-line/windows-command-line.md`). Use the sections
-   from `_templates/session-note.md`. Date it today unless he gives another date. If he doesn't say
-   how long he spent, use 60 min.
+   from `_templates/session-note.md`. Log a room when it is finished, even if it took several days.
+   The header is `**Completed:** YYYY-MM-DD · **Block:** ... · **Sessions:** N`. Completed is the
+   day he finished the room (ask if he doesn't say; don't assume today). Sessions is how many
+   sittings it took; use 1 if he doesn't say.
 3. **Update the cheatsheets.** Add any new commands from his notes to `cheatsheets/linux-commands.md`
    or `cheatsheets/windows-commands.md`, keeping each file's table format. Skip commands that are
    already listed.
-4. **Tick the room** in the checklist and link it to the note: `- [x] [Room Name](04-command-line/room-name.md)`.
-5. **Commit it as Adil**, so the commit counts on his contribution graph, then push:
+4. **Tick the room** in the checklist, link it to the note, and add the completion date after the
+   link: `- [x] [Room Name](04-command-line/room-name.md) · YYYY-MM-DD`.
+5. **Commit it as Adil**, dated the completion day so it lands on the right square of his
+   contribution graph, then push:
 
    ```bash
    git add -A
-   git commit --author="Adil <adilmushtaq088@gmail.com>" -m "CS101: <Room Name>"
+   GIT_AUTHOR_DATE="YYYY-MM-DDT18:00:00+05:00" GIT_COMMITTER_DATE="YYYY-MM-DDT18:00:00+05:00" \
+     git commit --author="Adil <adilmushtaq088@gmail.com>" -m "CS101: <Room Name>"
    git push origin main
    ```
 
