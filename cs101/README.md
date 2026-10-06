@@ -2,8 +2,7 @@
 
 Twelve modules, 55 rooms. I take them in this order: defensive modules first, offensive last.
 
-After each room: write the note in its module folder, tick the room here, and turn its name into a
-link to the note.
+After each room: write the note, tick the room, link its name to the note, and add the completion date after the link.
 
 ## 01 · [Start your journey](01-start-your-journey)
 - [x] Offensive Security Intro
@@ -20,15 +19,15 @@ link to the note.
 - [x] Windows Fundamentals 2
 - [x] Windows Fundamentals 3
 - [x] Active Directory Basics
-- [x] [Windows Investigation (practice)](03-windows-and-ad/windows-investigation-practice.md)
+- [x] [Windows Investigation (practice)](03-windows-and-ad/windows-investigation-practice.md) · 2026-09-25
 
 ## 04 · [Command line](04-command-line)
-- [x] [Windows Command Line](04-command-line/windows-command-line.md)
-- [ ] Windows PowerShell
-- [ ] Linux Shells
+- [x] [Windows Command Line](04-command-line/windows-command-line.md) · 2026-09-28
+- [x] [Windows PowerShell](04-command-line/windows-powershell.md) · 2026-10-01
+- [x] [Linux Shells](04-command-line/linux-shells.md) · 2026-10-02
 
 ## 05 · [Networking](05-networking)
-- [ ] Networking Concepts
+- [x] [Networking Concepts](05-networking/networking-concepts.md) · 2026-10-05
 - [ ] Networking Essentials
 - [ ] Networking Core Protocols
 - [ ] Networking Secure Protocols
