@@ -20,3 +20,17 @@
 - FTP = file transfer
 - Telnet = remote text session (unencrypted)
 - HTTPS = HTTP with encryption
+
+## Secure versions
+
+| Plain | Secure | Default port |
+|---|---|---|
+| HTTP 80 | HTTPS | 443 |
+| Telnet 23 | SSH | 22 |
+| FTP 21 | SFTP (over SSH) | 22 |
+| FTP 21 | FTPS (FTP + TLS) | 990 (implicit) |
+| SMTP 25 | SMTPS | 465 |
+| POP3 110 | POP3S | 995 |
+| IMAP 143 | IMAPS | 993 |
+
+VPN = encrypted tunnel across a public network; TLS = the encryption layer under HTTPS and the secure email protocols.
