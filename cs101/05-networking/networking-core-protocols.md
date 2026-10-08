@@ -1,6 +1,6 @@
 # Networking Core Protocols
 
-**Completed:** 2026-10-06 · **Block:** CS101 · **Sessions:** 1
+**Completed:** 2026-10-07 · **Block:** CS101 · **Sessions:** 1
 
 ## What this covers
 The core TCP/IP protocols that run behind everyday apps: DNS, WHOIS, HTTP/HTTPS, FTP and email (SMTP, POP3, IMAP). A SOC analyst sees these in nearly every log and alert.
