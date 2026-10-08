@@ -30,7 +30,7 @@ After each room: write the note, tick the room, link its name to the note, and a
 - [x] [Networking Concepts](05-networking/networking-concepts.md) · 2026-10-05
 - [x] [Networking Essentials](05-networking/networking-essentials.md) · 2026-10-06
 - [x] [Networking Core Protocols](05-networking/networking-core-protocols.md) · 2026-10-06
-- [ ] Networking Secure Protocols
+- [x] [Networking Secure Protocols](05-networking/networking-secure-protocols.md) · 2026-10-08
 - [ ] Wireshark: The Basics
 - [ ] Tcpdump: The Basics
 - [ ] Nmap: The Basics
