@@ -33,7 +33,7 @@ After each room: write the note, tick the room, link its name to the note, and a
 - [x] [Networking Secure Protocols](05-networking/networking-secure-protocols.md) · 2026-10-08
 - [x] [Wireshark: The Basics](05-networking/wireshark-the-basics.md) · 2026-10-20
 - [x] [Tcpdump: The Basics](05-networking/tcpdump-the-basics.md) · 2026-10-21
-- [ ] Nmap: The Basics
+- [x] [Nmap: The Basics](05-networking/nmap-the-basics.md) · 2026-10-22
 
 ## 06 · [Cryptography](06-cryptography)
 - [ ] Cryptography Basics
