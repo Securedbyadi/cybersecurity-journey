@@ -6,7 +6,7 @@
 The protocols and mechanisms that make a local network work day to day: DHCP, ARP, ICMP, routing and NAT. A SOC analyst needs these to read network logs and spot traffic that doesn't fit.
 
 ## What I did
-- DHCP: automatic assignment of IP address, subnet mask and DNS server (a phone joining home Wi-Fi)
+- DHCP: automatic assignment of IP address, subnet mask and DNS server
 - ARP: mapping an IP address (Layer 3) to a MAC address (Layer 2) on the local network
 - ICMP: diagnostics and error reporting
 - Routing: forwarding packets between separate networks using a routing table and default gateway
