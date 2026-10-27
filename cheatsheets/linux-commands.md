@@ -14,3 +14,4 @@
 | `traceroute <ip>` | show the route to a host, hop by hop | `traceroute 8.8.8.8` |
 | `ip route` | show the routing table | `ip route` |
 | `ping <ip>` | check if a host is reachable | `ping 8.8.8.8` |
+| `sha256sum <file>` | SHA-256 hash of a file | `sha256sum file.iso` |

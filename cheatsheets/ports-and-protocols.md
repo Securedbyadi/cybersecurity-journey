@@ -33,4 +33,5 @@
 | POP3 110 | POP3S | 995 |
 | IMAP 143 | IMAPS | 993 |
 
-VPN = encrypted tunnel across a public network; TLS = the encryption layer under HTTPS and the secure email protocols.
+- VPN = encrypted tunnel across a public network
+- TLS = the encryption layer under HTTPS and the secure email protocols
