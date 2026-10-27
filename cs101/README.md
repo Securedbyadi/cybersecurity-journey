@@ -36,9 +36,9 @@ After each room: write the note, tick the room, link its name to the note, and a
 - [x] [Nmap: The Basics](05-networking/nmap-the-basics.md) · 2026-10-22
 
 ## 06 · [Cryptography](06-cryptography)
-- [ ] Cryptography Basics
-- [ ] Public Key Cryptography Basics
-- [ ] Hashing Basics
+- [x] [Cryptography Basics](06-cryptography/cryptography-basics.md) · 2026-10-23
+- [x] [Public Key Cryptography Basics](06-cryptography/public-key-cryptography-basics.md) · 2026-10-26
+- [x] [Hashing Basics](06-cryptography/hashing-basics.md) · 2026-10-27
 - [ ] John the Ripper: The Basics
 
 ## 07 · [Defensive security](07-defensive-security)
