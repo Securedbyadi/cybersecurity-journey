@@ -18,13 +18,12 @@ Adil pastes rough notes from a study session. Turn them into a logged session, c
    already listed.
 4. **Tick the room** in the checklist, link it to the note, and add the completion date after the
    link: `- [x] [Room Name](04-command-line/room-name.md) · YYYY-MM-DD`.
-5. **Commit it as Adil**, dated the completion day so it lands on the right square of his
-   contribution graph, then push:
+5. **Commit it as Adil** with the real current date (do not backdate; the note's Completed date
+   already records the day he finished), then push:
 
    ```bash
    git add -A
-   GIT_AUTHOR_DATE="YYYY-MM-DDT18:00:00+05:00" GIT_COMMITTER_DATE="YYYY-MM-DDT18:00:00+05:00" \
-     git commit --author="Adil <adilmushtaq088@gmail.com>" -m "CS101: <Room Name>"
+   git commit --author="Adil <adilmushtaq088@gmail.com>" -m "CS101: <Room Name>"
    git push origin main
    ```
 
